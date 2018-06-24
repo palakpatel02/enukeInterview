@@ -1,10 +1,10 @@
-[1. The Marco Polo Game](#)
+[1. The Marco Polo Game](#1-marco-polo-instructions)
 
-[2. A Simple Question about .NET](#)
+[2. A Simple Question about .NET](#2-when-should-you-use-linq-in-your-program)
 
-[3. A Merge alogorithm](#)
+[3. A Merge alogorithm](#3-a-merge-alogorithm)
 
-[4. Implementing a User Story](#)
+[4. Implementing a User Story](#4-implementing-a-user-story-digitise-invoice)
 
 # 1) Marco Polo Instructions
 ```
