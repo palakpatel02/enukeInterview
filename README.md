@@ -1,12 +1,9 @@
-[1. The Marco Polo Game](#1-marco-polo-instructions)
+1. [The Marco Polo Game](#marco-polo-instructions)
+2. [A Simple Question about .NET](#when-should-you-use-linq-in-your-program)
+3. [A Merge alogorithm](#a-merge-alogorithm)
+4. [Implementing a User Story](#implementing-a-user-story-digitise-invoice)
 
-[2. A Simple Question about .NET](#2-when-should-you-use-linq-in-your-program)
-
-[3. A Merge alogorithm](#3-a-merge-alogorithm)
-
-[4. Implementing a User Story](#4-implementing-a-user-story-digitise-invoice)
-
-# 1) Marco Polo Instructions
+# Marco Polo Instructions
 ```
 int start = 1, end = 100;
 string result = string.Empty;
@@ -25,7 +22,7 @@ Console.WriteLine(result);
 ```
 Live working code: [https://dotnetfiddle.net/RP0o68](https://dotnetfiddle.net/RP0o68)
 
-# 2) When should you use LINQ in your program? 
+# When should you use LINQ in your program? 
 
 To operate on collection of data, we can use Linq. 
 To find a particular object in the list, we have to use a `foreach` or a `for` loop to traverse the collection to find a particular object. But using linq, it becomes easy to find one.
@@ -62,7 +59,7 @@ private List<Employee> getEmployees()
 ```
 Live working code: [https://dotnetfiddle.net/BqzYZF](https://dotnetfiddle.net/BqzYZF)
 
-# 3) A Merge alogorithm
+# A Merge alogorithm
 ```
 int[] a1 = {2,4};
 int[] a2 = {1,3,5,7};
@@ -92,7 +89,7 @@ while (j < a2.Length)
 ```
 Live working code: [https://dotnetfiddle.net/MHbnsJ](https://dotnetfiddle.net/MHbnsJ)
 
-# 4) Implementing a User Story (digitise invoice)
+# Implementing a User Story (digitise invoice)
 ```
 private static void digitize(string url)
 {
